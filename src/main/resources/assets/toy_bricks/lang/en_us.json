@@ -1,0 +1,10 @@
+{
+  "item.toy_bricks.raw_plastic": "Raw Plastic",
+  "item.toy_bricks.toy_brick": "Toy Brick",
+
+  "block.toy_bricks.toy_bricks": "Toy Bricks",
+  "block.toy_bricks.toy_bricks_stairs": "Toy Bricks Stairs",
+  "block.toy_bricks.toy_bricks_slab": "Toy Bricks Slab",
+
+  "itemgroup.toy_bricks_item_group": "Toy Bricks"
+}

@@ -1,0 +1,4 @@
+// 1.21.8	-999999999-01-01T00:00:00	Toy Bricks/Block Loot Tables
+2c510083c8345dd85cbdb18ca55b706c2d60c4a3 data/toy_bricks/loot_table/blocks/toy_bricks.json
+793fb880bc2af29ce71b43c7ec72e6875b547a29 data/toy_bricks/loot_table/blocks/toy_bricks_slab.json
+cc568d12dc32b655eb8959ed486fca88d28411ed data/toy_bricks/loot_table/blocks/toy_bricks_stairs.json

@@ -1,0 +1,7 @@
+// 1.21.8	-999999999-01-01T00:00:00	Toy Bricks/TutorialMod Recipes
+4e93f99e4482068d8850daf02b177cee4d5652d7 data/toy_bricks/advancement/recipes/misc/raw_plastic.json
+df136c25e4eb9439993763d83e7955105cc59105 data/toy_bricks/advancement/recipes/misc/toy_brick_from_blasting_raw_plastic.json
+4036e4b2b3411162549a54bb74f12181237357b7 data/toy_bricks/advancement/recipes/misc/toy_brick_from_smelting_raw_plastic.json
+c0640a0ace0154e048b552bcc1fc2a3267949ba2 data/toy_bricks/recipe/raw_plastic.json
+e81826b92ecad732f8aac49564b1ea391816dc6b data/toy_bricks/recipe/toy_brick_from_blasting_raw_plastic.json
+6b9aad2454627cd2a1802702437bb18469402dea data/toy_bricks/recipe/toy_brick_from_smelting_raw_plastic.json
