@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "toy_bricks_stairs",
+  "key": {
+    "#": "toy_bricks:brown_toy_bricks"
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "id": "toy_bricks:brown_toy_bricks_stairs"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toy_bricks:green_toy_brick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_white_toy_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "toy_bricks:white_toy_brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_white_toy_brick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toy_bricks:green_toy_brick"
+    ]
+  }
+}

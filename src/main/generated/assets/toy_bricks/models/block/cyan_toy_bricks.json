@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "toy_bricks:block/cyan_toy_bricks"
+  }
+}

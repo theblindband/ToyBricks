@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "toy_brick",
+  "ingredients": [
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "toy_bricks:plastic_brick",
+    "minecraft:blue_dye"
+  ],
+  "result": {
+    "count": 8,
+    "id": "toy_bricks:blue_toy_brick"
+  }
+}

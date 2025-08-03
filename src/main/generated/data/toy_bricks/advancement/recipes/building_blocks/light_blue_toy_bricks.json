@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_light_blue_toy_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "toy_bricks:light_blue_toy_brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toy_bricks:light_blue_toy_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_light_blue_toy_brick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toy_bricks:light_blue_toy_bricks"
+    ]
+  }
+}

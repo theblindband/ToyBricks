@@ -17,9 +17,58 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
-
+        //Toy Bricks
         addDrop(ModBlocks.TOY_BRICKS);
         addDrop(ModBlocks.TOY_BRICKS_STAIRS);
         addDrop(ModBlocks.TOY_BRICKS_SLAB);
+        //Dyed Toy Bricks
+        addDrop(ModBlocks.WHITE_TOY_BRICKS);
+        addDrop(ModBlocks.WHITE_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.WHITE_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.ORANGE_TOY_BRICKS);
+        addDrop(ModBlocks.ORANGE_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.ORANGE_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.MAGENTA_TOY_BRICKS);
+        addDrop(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.MAGENTA_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.LIGHT_BLUE_TOY_BRICKS);
+        addDrop(ModBlocks.LIGHT_BLUE_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.LIGHT_BLUE_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.YELLOW_TOY_BRICKS);
+        addDrop(ModBlocks.YELLOW_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.YELLOW_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.LIME_TOY_BRICKS);
+        addDrop(ModBlocks.LIME_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.LIME_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.PINK_TOY_BRICKS);
+        addDrop(ModBlocks.PINK_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.PINK_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.GRAY_TOY_BRICKS);
+        addDrop(ModBlocks.GRAY_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.GRAY_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.LIGHT_GRAY_TOY_BRICKS);
+        addDrop(ModBlocks.LIGHT_GRAY_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.CYAN_TOY_BRICKS);
+        addDrop(ModBlocks.CYAN_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.CYAN_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.PURPLE_TOY_BRICKS);
+        addDrop(ModBlocks.PURPLE_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.PURPLE_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.BLUE_TOY_BRICKS);
+        addDrop(ModBlocks.BLUE_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.BLUE_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.BROWN_TOY_BRICKS);
+        addDrop(ModBlocks.BROWN_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.BROWN_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.GREEN_TOY_BRICKS);
+        addDrop(ModBlocks.GREEN_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.GREEN_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.RED_TOY_BRICKS);
+        addDrop(ModBlocks.RED_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.RED_TOY_BRICKS_SLAB);
+        addDrop(ModBlocks.BLACK_TOY_BRICKS);
+        addDrop(ModBlocks.BLACK_TOY_BRICKS_STAIRS);
+        addDrop(ModBlocks.BLACK_TOY_BRICKS_SLAB);
     }
 }

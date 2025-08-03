@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cyan_toy_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "toy_bricks:cyan_toy_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toy_bricks:cyan_toy_bricks_stairs"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_cyan_toy_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toy_bricks:cyan_toy_bricks_stairs"
+    ]
+  }
+}

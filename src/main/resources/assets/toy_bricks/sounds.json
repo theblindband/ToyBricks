@@ -1,0 +1,32 @@
+{
+  "toy_bricks_break": {
+    "subtitle": "sounds.toy_bricks.toy_bricks_break",
+    "sounds": [
+      "toy_bricks:toy_bricks_break"
+    ]
+  },
+  "toy_bricks_step": {
+    "subtitle": "sounds.toy_bricks.toy_bricks_step",
+    "sounds": [
+      "toy_bricks:toy_bricks_step"
+    ]
+  },
+  "toy_bricks_place": {
+    "subtitle": "sounds.toy_bricks.toy_bricks_place",
+    "sounds": [
+      "toy_bricks:toy_bricks_place"
+    ]
+  },
+  "toy_bricks_hit": {
+    "subtitle": "sounds.toy_bricks.toy_bricks_hit",
+    "sounds": [
+      "toy_bricks:toy_bricks_hit"
+    ]
+  },
+  "toy_bricks_fall": {
+    "subtitle": "sounds.toy_bricks.toy_bricks_fall",
+    "sounds": [
+      "toy_bricks:toy_bricks_fall"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toy_bricks:block/brown_toy_bricks_slab"
+    },
+    "type=double": {
+      "model": "toy_bricks:block/brown_toy_bricks"
+    },
+    "type=top": {
+      "model": "toy_bricks:block/brown_toy_bricks_slab_top"
+    }
+  }
+}

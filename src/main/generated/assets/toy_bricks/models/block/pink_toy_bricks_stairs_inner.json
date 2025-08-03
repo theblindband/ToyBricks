@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "toy_bricks:block/pink_toy_bricks",
+    "side": "toy_bricks:block/pink_toy_bricks",
+    "top": "toy_bricks:block/pink_toy_bricks"
+  }
+}

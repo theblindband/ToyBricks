@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.theblindbandit6.toy_bricks.block.ModBlocks;
 import net.theblindbandit6.toy_bricks.item.ModItemGroups;
 import net.theblindbandit6.toy_bricks.item.ModItems;
+import net.theblindbandit6.toy_bricks.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,8 +16,8 @@ public class ToyBricks implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItemGroups.registerItemGroups();
-
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModSounds.registerModSounds();
     }
 }

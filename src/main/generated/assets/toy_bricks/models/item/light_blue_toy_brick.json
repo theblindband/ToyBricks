@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toy_bricks:item/light_blue_toy_brick"
+  }
+}
