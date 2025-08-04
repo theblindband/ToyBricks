@@ -1,5 +1,9 @@
 {
   "values": [
+    "toy_bricks:toy_bricks_slab",
+    "toy_bricks:castle_toy_bricks_slab",
+    "toy_bricks:magma_toy_bricks_slab",
+    "toy_bricks:portal_toy_bricks_slab",
     "toy_bricks:white_toy_bricks_slab",
     "toy_bricks:light_gray_toy_bricks_slab",
     "toy_bricks:gray_toy_bricks_slab",

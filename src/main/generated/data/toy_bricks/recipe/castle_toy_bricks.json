@@ -2,14 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "toy_bricks:yellow_toy_bricks",
-    "toy_bricks:blue_toy_bricks",
-    "toy_bricks:lime_toy_bricks",
-    "toy_bricks:red_toy_bricks",
-    "toy_bricks:magenta_toy_bricks"
+    "toy_bricks:light_gray_toy_bricks",
+    "toy_bricks:gray_toy_bricks"
   ],
   "result": {
-    "count": 5,
+    "count": 2,
     "id": "toy_bricks:castle_toy_bricks"
   }
 }

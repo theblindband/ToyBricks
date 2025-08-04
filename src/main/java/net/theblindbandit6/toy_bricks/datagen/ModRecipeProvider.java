@@ -42,6 +42,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
                 createStairsRecipe(ModBlocks.TOY_BRICKS_STAIRS, Ingredient.ofItem(ModBlocks.TOY_BRICKS)).group("toy_bricks_stairs").criterion(hasItem(ModBlocks.TOY_BRICKS), conditionsFromItem(ModBlocks.TOY_BRICKS)).offerTo(exporter);
                 createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOY_BRICKS_SLAB, Ingredient.ofItem(ModBlocks.TOY_BRICKS)).group("toy_bricks_slab").criterion(hasItem(ModBlocks.TOY_BRICKS), conditionsFromItem(ModBlocks.TOY_BRICKS)).offerTo(exporter);
+
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CASTLE_TOY_BRICKS, 2)
                         .input(ModBlocks.LIGHT_GRAY_TOY_BRICKS)
                         .input(ModBlocks.GRAY_TOY_BRICKS)
@@ -50,6 +51,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
                 createStairsRecipe(ModBlocks.CASTLE_TOY_BRICKS_STAIRS, Ingredient.ofItem(ModBlocks.CASTLE_TOY_BRICKS)).group("toy_bricks_stairs").criterion(hasItem(ModBlocks.CASTLE_TOY_BRICKS), conditionsFromItem(ModBlocks.CASTLE_TOY_BRICKS)).offerTo(exporter);
                 createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CASTLE_TOY_BRICKS_SLAB, Ingredient.ofItem(ModBlocks.CASTLE_TOY_BRICKS)).group("toy_bricks_slab").criterion(hasItem(ModBlocks.CASTLE_TOY_BRICKS), conditionsFromItem(ModBlocks.CASTLE_TOY_BRICKS)).offerTo(exporter);
+
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGMA_TOY_BRICKS, 2)
                         .input(ModBlocks.RED_TOY_BRICKS)
                         .input(ModBlocks.ORANGE_TOY_BRICKS)
@@ -58,6 +60,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
                 createStairsRecipe(ModBlocks.MAGMA_TOY_BRICKS_STAIRS, Ingredient.ofItem(ModBlocks.MAGMA_TOY_BRICKS)).group("toy_bricks_stairs").criterion(hasItem(ModBlocks.MAGMA_TOY_BRICKS), conditionsFromItem(ModBlocks.MAGMA_TOY_BRICKS)).offerTo(exporter);
                 createSlabRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGMA_TOY_BRICKS_SLAB, Ingredient.ofItem(ModBlocks.MAGMA_TOY_BRICKS)).group("toy_bricks_slab").criterion(hasItem(ModBlocks.MAGMA_TOY_BRICKS), conditionsFromItem(ModBlocks.MAGMA_TOY_BRICKS)).offerTo(exporter);
+
                 createShapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.PORTAL_TOY_BRICKS, 2)
                         .input(ModBlocks.PURPLE_TOY_BRICKS)
                         .input(ModBlocks.MAGENTA_TOY_BRICKS)
