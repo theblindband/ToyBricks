@@ -84,6 +84,6 @@ public class ModBlocks {
     }
 
     public static void registerModBlocks() {
-        ToyBricks.LOGGER.info("Registering Mod Blocks for " + ToyBricks.MOD_ID);
+        //ToyBricks.LOGGER.info("Registering Mod Blocks for " + ToyBricks.MOD_ID);
     }
 }

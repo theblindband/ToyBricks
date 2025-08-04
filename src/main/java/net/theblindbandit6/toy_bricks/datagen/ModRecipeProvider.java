@@ -90,8 +90,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
                 //Smelting
                 List<ItemConvertible> PLASTIC_BRICK_SMELTABLES = List.of(ModItems.RAW_PLASTIC);
-                offerSmelting(PLASTIC_BRICK_SMELTABLES, RecipeCategory.MISC, ModItems.PLASTIC_BRICK, 0.25f, 200, "toy_brick");
-                offerBlasting(PLASTIC_BRICK_SMELTABLES, RecipeCategory.MISC, ModItems.PLASTIC_BRICK, 0.25f, 100, "toy_brick");
+                offerSmelting(PLASTIC_BRICK_SMELTABLES, RecipeCategory.MISC, ModItems.PLASTIC_BRICK, 0.25f, 200, "plastic_brick");
+                offerBlasting(PLASTIC_BRICK_SMELTABLES, RecipeCategory.MISC, ModItems.PLASTIC_BRICK, 0.25f, 100, "plastic_brick");
                 //Dyed Toy Bricks
                 createShapeless(RecipeCategory.MISC, ModItems.WHITE_TOY_BRICK, 8).group("toy_brick").input(ModItems.PLASTIC_BRICK, 8).input(Items.WHITE_DYE).criterion(hasItem(ModItems.WHITE_TOY_BRICK), conditionsFromItem(ModItems.WHITE_TOY_BRICK)).offerTo(exporter);
                 createShapeless(RecipeCategory.MISC, ModItems.ORANGE_TOY_BRICK, 8).group("toy_brick").input(ModItems.PLASTIC_BRICK, 8).input(Items.ORANGE_DYE).criterion(hasItem(ModItems.WHITE_TOY_BRICK), conditionsFromItem(ModItems.WHITE_TOY_BRICK)).offerTo(exporter);

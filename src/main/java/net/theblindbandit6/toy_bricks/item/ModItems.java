@@ -36,7 +36,8 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(ToyBricks.MOD_ID, name),
                 function.apply(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(ToyBricks.MOD_ID, name)))));
     }
+
     public static void registerModItems() {
-        ToyBricks.LOGGER.info("Registering Mod Items for " + ToyBricks.MOD_ID);
+        //ToyBricks.LOGGER.info("Registering Mod Items for " + ToyBricks.MOD_ID);
     }
 }
