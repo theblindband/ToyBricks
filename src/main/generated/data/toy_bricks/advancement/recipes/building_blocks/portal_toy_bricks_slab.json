@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_toy_bricks": {
+    "has_portal_toy_bricks": {
       "conditions": {
         "items": [
           {
-            "items": "#toy_bricks:toy_bricks"
+            "items": "toy_bricks:portal_toy_bricks"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "toy_bricks:toy_bricks"
+        "recipe": "toy_bricks:portal_toy_bricks_slab"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_toy_bricks"
+      "has_portal_toy_bricks"
     ]
   ],
   "rewards": {
     "recipes": [
-      "toy_bricks:toy_bricks"
+      "toy_bricks:portal_toy_bricks_slab"
     ]
   }
 }

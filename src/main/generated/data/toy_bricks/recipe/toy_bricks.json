@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "toy_bricks:yellow_toy_bricks",
+    "toy_bricks:blue_toy_bricks",
+    "toy_bricks:lime_toy_bricks",
+    "toy_bricks:red_toy_bricks",
+    "toy_bricks:magenta_toy_bricks"
+  ],
+  "result": {
+    "count": 5,
+    "id": "toy_bricks:toy_bricks"
+  }
+}
