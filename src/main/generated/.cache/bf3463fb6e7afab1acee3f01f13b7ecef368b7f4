@@ -1,3 +1,21 @@
 // 1.21.8	-999999999-01-01T00:00:00	Toy Bricks/Tags for minecraft:item
-38279f025f7413faf6b7f8f0260305a8adabb33a data/toy_bricks/tags/item/toy_brick_blocks.json
-2ebc962b951716d4711e2612ea8d7dd25f53e0af data/toy_bricks/tags/item/toy_bricks.json
+85f693bf011832e28dbd564fbe61c60377576352 data/c/tags/item/bricks.json
+82d9e3bacc5ad4dc64450f655b8e3e64b0f2f180 data/c/tags/item/dyed.json
+f742ae3b550aff3d9963dc0cddfeded4c814d4bb data/c/tags/item/dyed/black.json
+2ce6dfe06710a81d28ba4ed51c8b9d02f0224f32 data/c/tags/item/dyed/blue.json
+ca420d564299d184d2bfb54fcafd35a7ec1fd119 data/c/tags/item/dyed/brown.json
+c110c8200b659dedf7e9587785cb2b4bf1f2de6b data/c/tags/item/dyed/cyan.json
+6db100d7e48fab8bdb8775ffc5195e1796d275fc data/c/tags/item/dyed/gray.json
+39b2890f5d77517b686dd605fa3fbaf3a223410c data/c/tags/item/dyed/green.json
+e0902cb7ab05dc9ece590d5fdcb3def69ff5e990 data/c/tags/item/dyed/light_blue.json
+4e51f5721745b070b7fafc0ed32edd5aca66cd4d data/c/tags/item/dyed/light_gray.json
+953bcf9693bee6c84e7412c83ab92432a67814d1 data/c/tags/item/dyed/lime.json
+ddac63d4c522f712a611e5f3414dc0ec6e99a099 data/c/tags/item/dyed/magenta.json
+a89063dfe461ea053893d5961f7579e58df7e7bc data/c/tags/item/dyed/orange.json
+95aeff2acd1715000b57e460716c33ad06858a7e data/c/tags/item/dyed/pink.json
+55b98da367e2cc4cabcca54ab3b33d3576edf8dc data/c/tags/item/dyed/purple.json
+07d8885db8642af31edc32dab29251321d5d1761 data/c/tags/item/dyed/red.json
+1e4b5d2df46647617758b5026725269f2c65daf5 data/c/tags/item/dyed/white.json
+09daaeafefdef46031c6d3cb829cc321fbc101a5 data/c/tags/item/dyed/yellow.json
+ec2545c13fcacb9dc9dc3e13848e764d8e327617 data/minecraft/tags/item/slabs.json
+f90f66d0a3947ec75910d0fb528d600ee40d5c47 data/minecraft/tags/item/stairs.json

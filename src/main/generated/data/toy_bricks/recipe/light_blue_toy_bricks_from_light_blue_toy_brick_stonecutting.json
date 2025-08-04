@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": "toy_bricks:light_blue_toy_brick",
-  "result": {
-    "count": 1,
-    "id": "toy_bricks:light_blue_toy_bricks"
-  }
-}

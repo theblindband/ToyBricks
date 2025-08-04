@@ -37,10 +37,19 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGENTA_TOY_BRICK);
                         entries.add(ModItems.PINK_TOY_BRICK);
                         //Blocks
-                        //Toy Bricks
+                        //Toy Bricks Mixed Colours
                         entries.add(ModBlocks.TOY_BRICKS);
                         entries.add(ModBlocks.TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.TOY_BRICKS_SLAB);
+                        entries.add(ModBlocks.CASTLE_TOY_BRICKS);
+                        entries.add(ModBlocks.CASTLE_TOY_BRICKS_STAIRS);
+                        entries.add(ModBlocks.CASTLE_TOY_BRICKS_SLAB);
+                        entries.add(ModBlocks.MAGMA_TOY_BRICKS);
+                        entries.add(ModBlocks.MAGMA_TOY_BRICKS_STAIRS);
+                        entries.add(ModBlocks.MAGMA_TOY_BRICKS_SLAB);
+                        entries.add(ModBlocks.PORTAL_TOY_BRICKS);
+                        entries.add(ModBlocks.PORTAL_TOY_BRICKS_STAIRS);
+                        entries.add(ModBlocks.PORTAL_TOY_BRICKS_SLAB);
                         //Dyed Toy Bricks
                         entries.add(ModBlocks.WHITE_TOY_BRICKS);
                         entries.add(ModBlocks.WHITE_TOY_BRICKS_STAIRS);

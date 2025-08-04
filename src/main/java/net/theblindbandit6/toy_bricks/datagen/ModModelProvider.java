@@ -17,6 +17,15 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool toyBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TOY_BRICKS);
         toyBricksPool.stairs(ModBlocks.TOY_BRICKS_STAIRS);
         toyBricksPool.slab(ModBlocks.TOY_BRICKS_SLAB);
+        BlockStateModelGenerator.BlockTexturePool castleToyBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CASTLE_TOY_BRICKS);
+        castleToyBricksPool.stairs(ModBlocks.CASTLE_TOY_BRICKS_STAIRS);
+        castleToyBricksPool.slab(ModBlocks.CASTLE_TOY_BRICKS_SLAB);
+        BlockStateModelGenerator.BlockTexturePool magmaToyBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGMA_TOY_BRICKS);
+        magmaToyBricksPool.stairs(ModBlocks.MAGMA_TOY_BRICKS_STAIRS);
+        magmaToyBricksPool.slab(ModBlocks.MAGMA_TOY_BRICKS_SLAB);
+        BlockStateModelGenerator.BlockTexturePool portalToyBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PORTAL_TOY_BRICKS);
+        portalToyBricksPool.stairs(ModBlocks.PORTAL_TOY_BRICKS_STAIRS);
+        portalToyBricksPool.slab(ModBlocks.PORTAL_TOY_BRICKS_SLAB);
         //Dyed Toy Bricks
         BlockStateModelGenerator.BlockTexturePool whiteToyBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WHITE_TOY_BRICKS);
         whiteToyBricksPool.stairs(ModBlocks.WHITE_TOY_BRICKS_STAIRS);

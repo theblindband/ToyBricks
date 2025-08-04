@@ -17,10 +17,19 @@ public class ModBlocks {
     //Toy Bricks Hardness and Resistance
     private static final float TOY_BRICK_HARDNESS = 1.5F;
     private static final float TOY_BRICK_RESISTANCE = 6.0F;
-    //Toy Bricks
+    //Toy Bricks Mixed Colours
     public static final Block TOY_BRICKS = registerBlock("toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
     public static final Block TOY_BRICKS_STAIRS = registerBlock("toy_bricks_stairs",properties -> new StairsBlock(ModBlocks.TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
     public static final Block TOY_BRICKS_SLAB = registerBlock("toy_bricks_slab",properties -> new SlabBlock(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block CASTLE_TOY_BRICKS = registerBlock("castle_toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block CASTLE_TOY_BRICKS_STAIRS = registerBlock("castle_toy_bricks_stairs",properties -> new StairsBlock(ModBlocks.TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block CASTLE_TOY_BRICKS_SLAB = registerBlock("castle_toy_bricks_slab",properties -> new SlabBlock(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block MAGMA_TOY_BRICKS = registerBlock("magma_toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block MAGMA_TOY_BRICKS_STAIRS = registerBlock("magma_toy_bricks_stairs",properties -> new StairsBlock(ModBlocks.TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block MAGMA_TOY_BRICKS_SLAB = registerBlock("magma_toy_bricks_slab",properties -> new SlabBlock(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block PORTAL_TOY_BRICKS = registerBlock("portal_toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block PORTAL_TOY_BRICKS_STAIRS = registerBlock("portal_toy_bricks_stairs",properties -> new StairsBlock(ModBlocks.TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
+    public static final Block PORTAL_TOY_BRICKS_SLAB = registerBlock("portal_toy_bricks_slab",properties -> new SlabBlock(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
     //Dyed Toy Bricks
     public static final Block WHITE_TOY_BRICKS = registerBlock("white_toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
     public static final Block WHITE_TOY_BRICKS_STAIRS = registerBlock("white_toy_bricks_stairs", properties -> new StairsBlock(ModBlocks.WHITE_TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS)));
