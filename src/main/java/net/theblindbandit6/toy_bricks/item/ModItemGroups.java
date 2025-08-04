@@ -93,6 +93,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups() {
-        ToyBricks.LOGGER.info("Registering Item Groups for " + ToyBricks.MOD_ID);
+        //ToyBricks.LOGGER.info("Registering Item Groups for " + ToyBricks.MOD_ID);
     }
 }

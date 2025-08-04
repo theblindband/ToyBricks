@@ -19,6 +19,7 @@ public class ModTags {
     //Item Tags
     public static class Items {
         public static final TagKey<Item> TOY_BRICKS = createTag("toy_bricks");
+        public static final TagKey<Item> TOY_BRICK_BLOCKS = createTag("toy_brick_blocks");
 
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(ToyBricks.MOD_ID, name));

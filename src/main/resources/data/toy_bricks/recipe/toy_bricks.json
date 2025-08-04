@@ -1,16 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "building",
-  "group": "toy_bricks",
-  "key": {
-    "S": "#toy_bricks:toy_bricks"
-  },
-  "pattern": [
-    "SS",
-    "SS"
-  ],
+  "type": "minecraft:stonecutting",
+  "ingredient": "#toy_bricks:toy_bricks",
   "result": {
-    "count": 4,
+    "count": 1,
     "id": "toy_bricks:toy_bricks"
   }
 }

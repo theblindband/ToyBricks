@@ -24,6 +24,6 @@ public class ModSounds {
     }
 
     public static void registerModSounds() {
-        ToyBricks.LOGGER.info("Registering Mod Sounds for " + ToyBricks.MOD_ID);
+        //ToyBricks.LOGGER.info("Registering Mod Sounds for " + ToyBricks.MOD_ID);
     }
 }

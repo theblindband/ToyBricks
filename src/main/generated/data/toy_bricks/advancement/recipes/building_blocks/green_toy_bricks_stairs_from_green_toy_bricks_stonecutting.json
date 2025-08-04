@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_green_toy_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "toy_bricks:green_toy_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toy_bricks:green_toy_bricks_stairs_from_green_toy_bricks_stonecutting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_green_toy_bricks"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toy_bricks:green_toy_bricks_stairs_from_green_toy_bricks_stonecutting"
+    ]
+  }
+}

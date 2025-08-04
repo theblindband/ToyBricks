@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "toy_bricks:lime_toy_brick",
+  "result": {
+    "count": 1,
+    "id": "toy_bricks:lime_toy_bricks"
+  }
+}

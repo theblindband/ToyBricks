@@ -1,20 +1,20 @@
 {
   "values": [
     "toy_bricks:white_toy_brick",
+    "toy_bricks:light_gray_toy_brick",
+    "toy_bricks:gray_toy_brick",
+    "toy_bricks:black_toy_brick",
+    "toy_bricks:brown_toy_brick",
+    "toy_bricks:red_toy_brick",
     "toy_bricks:orange_toy_brick",
-    "toy_bricks:magenta_toy_brick",
-    "toy_bricks:light_blue_toy_brick",
     "toy_bricks:yellow_toy_brick",
     "toy_bricks:lime_toy_brick",
-    "toy_bricks:pink_toy_brick",
-    "toy_bricks:gray_toy_brick",
-    "toy_bricks:light_gray_toy_brick",
-    "toy_bricks:cyan_toy_brick",
-    "toy_bricks:purple_toy_brick",
-    "toy_bricks:blue_toy_brick",
-    "toy_bricks:brown_toy_brick",
     "toy_bricks:green_toy_brick",
-    "toy_bricks:red_toy_brick",
-    "toy_bricks:black_toy_brick"
+    "toy_bricks:cyan_toy_brick",
+    "toy_bricks:light_blue_toy_brick",
+    "toy_bricks:blue_toy_brick",
+    "toy_bricks:purple_toy_brick",
+    "toy_bricks:magenta_toy_brick",
+    "toy_bricks:pink_toy_brick"
   ]
 }
