@@ -82,26 +82,27 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PURPLE_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.PINK_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.CASTLE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.MAGMA_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.PORTAL_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.WHITE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.GRAY_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.BLACK_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.BROWN_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.RED_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.ORANGE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.YELLOW_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.LIME_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.GREEN_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.CYAN_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.BLUE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.PURPLE_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.PINK_TOY_BRICKS_SLAB.asItem());
+
+                .add(ModBlocks.TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CASTLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGMA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PORTAL_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.WHITE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLACK_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BROWN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.RED_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.ORANGE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.YELLOW_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIME_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GREEN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CYAN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PURPLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PINK_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(ItemTags.STAIRS)
                 .add(ModBlocks.TOY_BRICKS_STAIRS.asItem())
@@ -147,6 +148,28 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB.asItem())
                 .add(ModBlocks.PINK_TOY_BRICKS_SLAB.asItem());
 
+        valueLookupBuilder(ItemTags.WALLS)
+                .add(ModBlocks.TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CASTLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGMA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PORTAL_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.WHITE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLACK_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BROWN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.RED_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.ORANGE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.YELLOW_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIME_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GREEN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CYAN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PURPLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PINK_TOY_BRICKS_WALL.asItem());
+
         valueLookupBuilder(BRICKS)
                 .add(ModItems.PLASTIC_BRICK)
                 .add(ModItems.WHITE_TOY_BRICK)
@@ -170,97 +193,113 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.WHITE_TOY_BRICK)
                 .add(ModBlocks.WHITE_TOY_BRICKS.asItem())
                 .add(ModBlocks.WHITE_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.WHITE_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.WHITE_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.WHITE_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_LIGHT_GRAY)
                 .add(ModItems.LIGHT_GRAY_TOY_BRICK)
                 .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS.asItem())
                 .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_GRAY)
                 .add(ModItems.GRAY_TOY_BRICK)
                 .add(ModBlocks.GRAY_TOY_BRICKS.asItem())
                 .add(ModBlocks.GRAY_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.GRAY_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.GRAY_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.GRAY_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_BLACK)
                 .add(ModItems.BLACK_TOY_BRICK)
                 .add(ModBlocks.BLACK_TOY_BRICKS.asItem())
                 .add(ModBlocks.BLACK_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.BLACK_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.BLACK_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.BLACK_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_BROWN)
                 .add(ModItems.BROWN_TOY_BRICK)
                 .add(ModBlocks.BROWN_TOY_BRICKS.asItem())
                 .add(ModBlocks.BROWN_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.BROWN_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.BROWN_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.BROWN_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_RED)
                 .add(ModItems.RED_TOY_BRICK)
                 .add(ModBlocks.RED_TOY_BRICKS.asItem())
                 .add(ModBlocks.RED_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.RED_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.RED_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.RED_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_ORANGE)
                 .add(ModItems.ORANGE_TOY_BRICK)
                 .add(ModBlocks.ORANGE_TOY_BRICKS.asItem())
                 .add(ModBlocks.ORANGE_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.ORANGE_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.ORANGE_TOY_BRICKS_SLAB.asItem())
+                .add(ModBlocks.ORANGE_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_YELLOW)
                 .add(ModItems.YELLOW_TOY_BRICK)
                 .add(ModBlocks.YELLOW_TOY_BRICKS.asItem())
                 .add(ModBlocks.YELLOW_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.YELLOW_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.YELLOW_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.YELLOW_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_LIME)
                 .add(ModItems.LIME_TOY_BRICK)
                 .add(ModBlocks.LIME_TOY_BRICKS.asItem())
                 .add(ModBlocks.LIME_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.LIME_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.LIME_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIME_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_GREEN)
                 .add(ModItems.GREEN_TOY_BRICK)
                 .add(ModBlocks.GREEN_TOY_BRICKS.asItem())
                 .add(ModBlocks.GREEN_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.GREEN_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.GREEN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GREEN_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_CYAN)
                 .add(ModItems.CYAN_TOY_BRICK)
                 .add(ModBlocks.CYAN_TOY_BRICKS.asItem())
                 .add(ModBlocks.CYAN_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.CYAN_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.CYAN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CYAN_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_LIGHT_BLUE)
                 .add(ModItems.LIGHT_BLUE_TOY_BRICK)
                 .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS.asItem())
                 .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_BLUE)
                 .add(ModItems.BLUE_TOY_BRICK)
                 .add(ModBlocks.BLUE_TOY_BRICKS.asItem())
                 .add(ModBlocks.BLUE_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.BLUE_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLUE_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_PURPLE)
                 .add(ModItems.PURPLE_TOY_BRICK)
                 .add(ModBlocks.PURPLE_TOY_BRICKS.asItem())
                 .add(ModBlocks.PURPLE_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.PURPLE_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.PURPLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PURPLE_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_MAGENTA)
                 .add(ModItems.MAGENTA_TOY_BRICK)
                 .add(ModBlocks.MAGENTA_TOY_BRICKS.asItem())
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED_PINK)
                 .add(ModItems.PINK_TOY_BRICK)
                 .add(ModBlocks.PINK_TOY_BRICKS.asItem())
                 .add(ModBlocks.PINK_TOY_BRICKS_STAIRS.asItem())
-                .add(ModBlocks.PINK_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.PINK_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PINK_TOY_BRICKS_WALL.asItem());
 
         valueLookupBuilder(DYED)
                 .add(ModItems.WHITE_TOY_BRICK)
@@ -279,6 +318,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PURPLE_TOY_BRICK)
                 .add(ModItems.MAGENTA_TOY_BRICK)
                 .add(ModItems.PINK_TOY_BRICK)
+
                 .add(ModBlocks.WHITE_TOY_BRICKS.asItem())
                 .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS.asItem())
                 .add(ModBlocks.GRAY_TOY_BRICKS.asItem())
@@ -295,6 +335,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PURPLE_TOY_BRICKS.asItem())
                 .add(ModBlocks.MAGENTA_TOY_BRICKS.asItem())
                 .add(ModBlocks.PINK_TOY_BRICKS.asItem())
+
                 .add(ModBlocks.WHITE_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.GRAY_TOY_BRICKS_STAIRS.asItem())
@@ -311,6 +352,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PURPLE_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS.asItem())
                 .add(ModBlocks.PINK_TOY_BRICKS_STAIRS.asItem())
+
                 .add(ModBlocks.WHITE_TOY_BRICKS_SLAB.asItem())
                 .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB.asItem())
                 .add(ModBlocks.GRAY_TOY_BRICKS_SLAB.asItem())
@@ -326,6 +368,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BLUE_TOY_BRICKS_SLAB.asItem())
                 .add(ModBlocks.PURPLE_TOY_BRICKS_SLAB.asItem())
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB.asItem())
-                .add(ModBlocks.PINK_TOY_BRICKS_SLAB.asItem());
+                .add(ModBlocks.PINK_TOY_BRICKS_SLAB.asItem())
+
+                .add(ModBlocks.WHITE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GRAY_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLACK_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BROWN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.RED_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.ORANGE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.YELLOW_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIME_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.GREEN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.CYAN_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.BLUE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PURPLE_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL.asItem())
+                .add(ModBlocks.PINK_TOY_BRICKS_WALL.asItem());
     }
 }
