@@ -1,4 +1,5 @@
 // 1.21.8	-999999999-01-01T00:00:00	Toy Bricks/Tags for minecraft:block
 67adf8682d1e0e26fcd2abcec015164154116967 data/minecraft/tags/block/slabs.json
 3eaa98d7e285c1b5535a15ed79f505d2c0279359 data/minecraft/tags/block/stairs.json
-9af6d62db7f2429bd80ef5a3e6b4dddc403f381f data/toy_bricks/tags/block/toy_brick_blocks.json
+a8175d1b0ed13ddd4e425f793b20e856dbf905a0 data/minecraft/tags/block/walls.json
+92c117e052c887c4b3180edf405a8146ecb955d3 data/toy_bricks/tags/block/toy_brick_blocks.json

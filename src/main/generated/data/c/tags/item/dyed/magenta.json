@@ -3,6 +3,7 @@
     "toy_bricks:magenta_toy_brick",
     "toy_bricks:magenta_toy_bricks",
     "toy_bricks:magenta_toy_bricks_stairs",
-    "toy_bricks:magenta_toy_bricks_slab"
+    "toy_bricks:magenta_toy_bricks_wall",
+    "toy_bricks:magenta_toy_bricks_wall"
   ]
 }
