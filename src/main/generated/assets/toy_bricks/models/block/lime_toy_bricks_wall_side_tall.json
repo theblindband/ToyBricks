@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "toy_bricks:block/lime_toy_bricks"
+  }
+}

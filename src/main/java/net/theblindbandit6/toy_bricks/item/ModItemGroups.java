@@ -46,97 +46,97 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CASTLE_TOY_BRICKS);
                         entries.add(ModBlocks.CASTLE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.CASTLE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.CASTLE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.MAGMA_TOY_BRICKS);
                         entries.add(ModBlocks.MAGMA_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.MAGMA_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.MAGMA_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.PORTAL_TOY_BRICKS);
                         entries.add(ModBlocks.PORTAL_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.PORTAL_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.PORTAL_TOY_BRICKS_WALL);
                         //Dyed Toy Bricks
                         entries.add(ModBlocks.WHITE_TOY_BRICKS);
                         entries.add(ModBlocks.WHITE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.WHITE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.WHITE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.LIGHT_GRAY_TOY_BRICKS);
                         entries.add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.LIGHT_GRAY_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.GRAY_TOY_BRICKS);
                         entries.add(ModBlocks.GRAY_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.GRAY_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.GRAY_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.BLACK_TOY_BRICKS);
                         entries.add(ModBlocks.BLACK_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.BLACK_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.BLACK_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.BROWN_TOY_BRICKS);
                         entries.add(ModBlocks.BROWN_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.BROWN_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.BROWN_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.RED_TOY_BRICKS);
                         entries.add(ModBlocks.RED_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.RED_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.RED_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.ORANGE_TOY_BRICKS);
                         entries.add(ModBlocks.ORANGE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.ORANGE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.ORANGE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.YELLOW_TOY_BRICKS);
                         entries.add(ModBlocks.YELLOW_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.YELLOW_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.YELLOW_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.LIME_TOY_BRICKS);
                         entries.add(ModBlocks.LIME_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.LIME_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.LIME_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.GREEN_TOY_BRICKS);
                         entries.add(ModBlocks.GREEN_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.GREEN_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.GREEN_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.CYAN_TOY_BRICKS);
                         entries.add(ModBlocks.CYAN_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.CYAN_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.CYAN_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.LIGHT_BLUE_TOY_BRICKS);
                         entries.add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.LIGHT_BLUE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.BLUE_TOY_BRICKS);
                         entries.add(ModBlocks.BLUE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.BLUE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.BLUE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.PURPLE_TOY_BRICKS);
                         entries.add(ModBlocks.PURPLE_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.PURPLE_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.PURPLE_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.MAGENTA_TOY_BRICKS);
                         entries.add(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.MAGENTA_TOY_BRICKS_WALL);
 
                         entries.add(ModBlocks.PINK_TOY_BRICKS);
                         entries.add(ModBlocks.PINK_TOY_BRICKS_STAIRS);
                         entries.add(ModBlocks.PINK_TOY_BRICKS_SLAB);
-                        entries.add(ModBlocks.TOY_BRICKS_WALL);
+                        entries.add(ModBlocks.PINK_TOY_BRICKS_WALL);
                     }).build());
 
     public static void registerItemGroups() {
