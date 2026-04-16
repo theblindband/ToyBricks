@@ -3,7 +3,9 @@
   "category": "building",
   "group": "toy_bricks",
   "key": {
-    "S": "toy_bricks:red_toy_brick"
+    "S": {
+      "item": "toy_bricks:red_toy_brick"
+    }
   },
   "pattern": [
     "SS",

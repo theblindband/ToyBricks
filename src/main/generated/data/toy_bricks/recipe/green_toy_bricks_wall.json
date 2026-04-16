@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "toy_bricks:green_toy_bricks"
+    "#": {
+      "item": "toy_bricks:green_toy_bricks"
+    }
   },
   "pattern": [
     "###",

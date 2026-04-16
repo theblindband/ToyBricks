@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_resin_clump": {
+    "has_honeycomb": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:resin_clump"
+            "items": "minecraft:honeycomb"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_resin_clump"
+      "has_honeycomb"
     ]
   ],
   "rewards": {

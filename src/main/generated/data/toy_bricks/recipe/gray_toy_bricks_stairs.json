@@ -3,7 +3,9 @@
   "category": "building",
   "group": "toy_bricks_stairs",
   "key": {
-    "#": "toy_bricks:gray_toy_bricks"
+    "#": {
+      "item": "toy_bricks:gray_toy_bricks"
+    }
   },
   "pattern": [
     "#  ",

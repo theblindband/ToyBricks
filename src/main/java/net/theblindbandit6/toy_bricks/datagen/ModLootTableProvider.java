@@ -2,8 +2,6 @@ package net.theblindbandit6.toy_bricks.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
-import net.minecraft.enchantment.Enchantment;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.theblindbandit6.toy_bricks.block.ModBlocks;
 
@@ -16,7 +14,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
+        //RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
         //Toy Bricks Mixed Colours
         addDrop(ModBlocks.TOY_BRICKS);
         addDrop(ModBlocks.TOY_BRICKS_STAIRS);

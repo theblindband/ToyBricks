@@ -16,7 +16,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        valueLookupBuilder(ModTags.Blocks.TOY_BRICK_BLOCKS)
+        getOrCreateTagBuilder(ModTags.Blocks.TOY_BRICK_BLOCKS)
                 .add(ModBlocks.TOY_BRICKS)
                 .add(ModBlocks.CASTLE_TOY_BRICKS)
                 .add(ModBlocks.MAGMA_TOY_BRICKS)
@@ -98,7 +98,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_WALL)
                 .add(ModBlocks.PINK_TOY_BRICKS_WALL);
 
-        valueLookupBuilder(BlockTags.STAIRS)
+        getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.TOY_BRICKS_STAIRS)
                 .add(ModBlocks.CASTLE_TOY_BRICKS_STAIRS)
                 .add(ModBlocks.MAGMA_TOY_BRICKS_STAIRS)
@@ -120,7 +120,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_STAIRS)
                 .add(ModBlocks.PINK_TOY_BRICKS_STAIRS);
 
-        valueLookupBuilder(BlockTags.SLABS)
+        getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.TOY_BRICKS_SLAB)
                 .add(ModBlocks.CASTLE_TOY_BRICKS_SLAB)
                 .add(ModBlocks.MAGMA_TOY_BRICKS_SLAB)
@@ -142,7 +142,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGENTA_TOY_BRICKS_SLAB)
                 .add(ModBlocks.PINK_TOY_BRICKS_SLAB);
 
-        valueLookupBuilder(BlockTags.WALLS)
+        getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.TOY_BRICKS_WALL)
                 .add(ModBlocks.CASTLE_TOY_BRICKS_WALL)
                 .add(ModBlocks.MAGMA_TOY_BRICKS_WALL)
