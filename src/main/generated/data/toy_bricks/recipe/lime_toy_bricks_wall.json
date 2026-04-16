@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "building",
   "key": {
-    "#": "toy_bricks:lime_toy_bricks"
+    "#": {
+      "item": "toy_bricks:lime_toy_bricks"
+    }
   },
   "pattern": [
     "###",

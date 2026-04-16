@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "toy_bricks:purple_toy_bricks",
-    "toy_bricks:magenta_toy_bricks"
+    {
+      "item": "toy_bricks:purple_toy_bricks"
+    },
+    {
+      "item": "toy_bricks:magenta_toy_bricks"
+    }
   ],
   "result": {
     "count": 2,

@@ -1,8 +1,11 @@
 package net.theblindbandit6.toy_bricks.datagen;
 
-import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.minecraft.client.data.*;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Block;
+import net.minecraft.data.client.BlockStateModelGenerator;
+import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 import net.theblindbandit6.toy_bricks.block.ModBlocks;
 import net.theblindbandit6.toy_bricks.item.ModItems;
 

@@ -3,15 +3,33 @@
   "category": "misc",
   "group": "toy_brick",
   "ingredients": [
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "toy_bricks:plastic_brick",
-    "minecraft:lime_dye"
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "toy_bricks:plastic_brick"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
   ],
   "result": {
     "count": 8,

@@ -3,7 +3,9 @@
   "category": "building",
   "group": "toy_bricks_slab",
   "key": {
-    "#": "toy_bricks:pink_toy_bricks"
+    "#": {
+      "item": "toy_bricks:pink_toy_bricks"
+    }
   },
   "pattern": [
     "###"

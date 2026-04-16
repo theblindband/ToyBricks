@@ -4,7 +4,9 @@
   "cookingtime": 200,
   "experience": 0.25,
   "group": "plastic_brick",
-  "ingredient": "toy_bricks:raw_plastic",
+  "ingredient": {
+    "item": "toy_bricks:raw_plastic"
+  },
   "result": {
     "id": "toy_bricks:plastic_brick"
   }

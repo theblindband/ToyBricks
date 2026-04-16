@@ -16,7 +16,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
+        //RegistryWrapper.Impl<Enchantment> impl = this.registries.getOrThrow(RegistryKeys.ENCHANTMENT);
         //Toy Bricks Mixed Colours
         addDrop(ModBlocks.TOY_BRICKS);
         addDrop(ModBlocks.TOY_BRICKS_STAIRS);
