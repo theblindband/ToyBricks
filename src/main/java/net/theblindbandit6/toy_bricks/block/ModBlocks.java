@@ -16,8 +16,8 @@ import java.util.function.Function;
 
 public class ModBlocks {
     //Toy Bricks Hardness and Resistance
-    private static final float TOY_BRICK_HARDNESS = 1.5F;
-    private static final float TOY_BRICK_RESISTANCE = 6.0F;
+    private static final float TOY_BRICK_HARDNESS = 0.5F;
+    private static final float TOY_BRICK_RESISTANCE = 3.0F;
     //Toy Bricks Mixed Colours
     public static final Block TOY_BRICKS = registerBlock("toy_bricks", properties -> new Block(properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS).mapColor(MapColor.YELLOW)));
     public static final Block TOY_BRICKS_STAIRS = registerBlock("toy_bricks_stairs",properties -> new StairsBlock(ModBlocks.TOY_BRICKS.getDefaultState(), properties.strength(TOY_BRICK_HARDNESS, TOY_BRICK_RESISTANCE).sounds(ModSounds.TOY_BRICKS).mapColor(MapColor.YELLOW)));
